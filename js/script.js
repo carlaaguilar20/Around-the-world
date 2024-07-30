@@ -23,5 +23,5 @@ else if (destino >4 && destino <1) {
     alert ( " Por favor ingrese un destino valido")
 }
 else {
-    alert ( " Por favor ingresar un dato valido")
+    alert ( " Por favor ingresar un dato valido.")
 }
