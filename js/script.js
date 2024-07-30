@@ -16,11 +16,11 @@ else if ( destino=="londres" && 3){
      alert (" Su destino escogido es LONDRES, te pasamos toda la informacion ")
 }
 else if (destino =="venecia" && 4){
-    alert (" Su destino escogido es VENECIA, te pasamos toda la informacion ")
+    alert (" Su destino escogido es VENECIA, te pasamos toda la informacion correspondiente ")
 
 }
 else if (destino >4 && destino <1) {
-    alert ( " Por favor ingrese un destino valido")
+    alert ( " Por favor ingrese un destino valido.")
 }
 else {
     alert ( " Por favor ingresar un dato valido.")
