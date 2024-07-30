@@ -13,7 +13,7 @@ else if (destino== "paris" && 2){
 alert (" Su destino escogido es PARIS, te pasamos toda la informacion ")
 }
 else if ( destino=="londres" && 3){
-     alert (" Su destino escogido es LONDRES, te pasamos toda la informacion ")
+     alert (" Su destino escogido es LONDRES, te pasamos toda la informacion correspondiente ")
 }
 else if (destino =="venecia" && 4){
     alert (" Su destino escogido es VENECIA, te pasamos toda la informacion correspondiente ")
