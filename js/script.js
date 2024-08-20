@@ -1,31 +1,42 @@
-saludoinicial()
-let nombre = prompt (" ingresa tu nombre:")
-let apellido =prompt ( " Ingresa tu apellido ")
-alert  ("  Bienvenido " + nombre +  (" ") + apellido + ("✈️🧳"))
-function saludoinicial() {
-    alert ( " Reserve su Aventura. en Around the world contamos con los siguientes destinos: 1= tokio , 2= paris, 3=londres , 4= venecia " )
+class destino {
+    informacion(ciudad, diasdisponible, mesdisponible, presupuesto) {
+        this.ciudad= ciudad;
+        this.diasdisponible= diasdisponible;
+        this.mesdisponible= mesdisponible;
+        this.presupuesto= presupuesto;
+    }
 }
-    let destino = prompt ( " Ingresa tu destino✈️ ") 
-    let destino2 =prompt ( " Ingresa tu segundo destino si tienes✈️ ") 
-    do {
-        if (destino== "tokio", destino== "1", destino2== "tokio", destino2== "1" ){
-            alert (" Su destino escogido es TOKIO, te pasamos toda la informacion ")
-            }
-            else if (destino== "paris" , destino== "2" , destino2== "paris" , destino2== "2"  ){
-            alert (" Su destino escogido es PARIS, te pasamos toda la informacion ")
-            }
-            else if ( destino=="londres" , destino== "3" , destino2=="londres" , destino2== "3" ){
-                 alert (" Su destino escogido es LONDRES, te pasamos toda la informacion correspondiente ")
-            }
-            else if (destino =="venecia", destino== "4",destino2 =="venecia", destino2== "4" ){
-                alert (" Su destino escogido es VENECIA, te pasamos toda la informacion correspondiente ")
-            
-            }
-            else if (destino >=5 , destino <1 , destino2 >=5 , destino2 <1) {
-                alert ( " Por favor ingrese un destino valido.")
-            } 
-            else {
-                alert ( " Por favor ingresar un dato valido.")
-            }
-    } while (destino>6 , destino2>6)
+ const tokio = new destino ("tokio",20,21,22,23,"mayo",3000);
+ const paris = new destino ("paris",21,22,23,24,"septiembre",5000);
+ const londres= new destino ("londres",17,18,19,20,"abril",6000);
+ const venecia= new destino ("venecia",19,20,21,22,"diciembre",8000);
 
+ const destinos = [
+    tokio,
+    paris,
+    londres,
+    venecia,
+
+ ];
+
+ function filtrardestino (destinos,buscar){
+    return destinos.filter(
+        (destino)=>
+            destino.ciudad.toLowerCase().includes(buscar.toLowerCase())||
+            destino.presupuesto.toLowerCase().includes(buscar.toLowerCase())
+
+    )
+ }
+ const buscar = prompt("ingrese la ciudad que desea visitar:");
+ const resultados= filtrardestino(destinos,buscar);
+
+ if (resultados.length > 0) {
+    alert("juegos encontrados:");
+    resultados.forEach((juego)=> {
+        alert(
+            "ciudad:${destino.ciudad}- diasdisponible: ${destino.diasdisponible} - mesdisponible: ${destino.mesdisponible} - presupuesto: ${destino.presupuesto}"
+        );
+    });
+ } else{
+    alert ("No se encuentra disponible la ciudad ingresada.");
+ }
