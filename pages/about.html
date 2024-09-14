@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title> ABOUT </title>
+</head>
+<body>
+    <HEader>
+        <H1>
+            AROUND THE WORLD
+        </H1>
+    </HEader>
+    <main>
+        <div class="nav" >
+            <nav id="menuA"  >
+                <ul class="menu">
+                    <li> <a href="/index.html">HOME</a></li>
+                    <li> <a href="../pages/destination.html">DESTINATION</a></li>
+                    <li> <a href="../pages/about.html">ABOUT</a></li>
+                    <li> <a href="../pages/misreservas.html">MY BOOKINGS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    
+       <section  class="parteA">
+         <div data-aos="zoom-in-up" data-aos-duration="2800" >
+            <form id="formularioA" class="formulario" action="">
+                <h2>
+                    ENTER YOUR NAME
+                </h2>
+                <input type="text" class="caja" >
+                <h2>
+                    ENTER YOUR LAST NAME
+                </h2>
+                <input type="text" class="caja" >
+                <div>
+                    <label for="pais"> <H2> CHOOSE YOUR DESTINATION  </H2> </label>
+                    <select class="caja"  name="pais" id="">
+                        <option class="caja"  value="lo">LONDON</option>
+                        <option class="caja"   value="to">TOKYO</option>
+                        <option class="caja"  value="pa"> PARIS</option>
+                        <option class="caja"  value="ve">VENICE</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentarios"> <H2>WRITE YOUR INQUIRY OR COMMENT: </H2>  </label>
+                    <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                </div>
+                <h2> ENTER YOUR EMAIL</h2>
+                <input type="email" name="" id="" class="caja" required >
+                <input id="buttonSend" type="submit" value="SEND"  class="cajaS" >
+            </form>
+         </div>
+        <div >
+            <h2  > DO YOU HAVE ANY QUESTIONS? ASK US</h2>
+            <h2> QUOTE YOUR TRIP </h2>
+            <h2  > WOULD YOU LIKE TO WORK WITH US? JOIN US </h2>
+            <h2 > WELCOME </h2>
+            <h2 id="nameF"> - </h2>
+            <H2 id="apellidoF"> - </H2>
+            <h2 id="emailF" > - </h2>
+        </div>
+        <div data-aos="zoom-in-up" data-aos-duration="2800" class="mapaA" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.590859861248!2d-58.56581055192663!3d-34.60042608456996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb822681f67f1%3A0x2971825c96851857!2sRAMON%20MARTIN%20TRAVEL%20SERVICE!5e0!3m2!1ses-419!2sar!4v1726244615886!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       </section>
+        
+        </main>
+        <footer>
+            <div>
+                <h1>
+                 WELCOME  - TRAVEL TIME - NEXT ADVENTURE
+                </h1>
+            </div>
+           </footer>
+        <script src="../js/script2.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+</html>

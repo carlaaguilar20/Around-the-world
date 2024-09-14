@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title> Around the world 🌎 </title>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1> ARAUND THE WORLD </h1>
-        </div>
-        <div class="nav">
-            <nav>
+    <header>
+<h1>
+    AROUND THE WORLD
+</h1>
+    </header>
+    <Main>
+        <div id="menuA">
+            <nav> 
                 <ul class="menu">
                     <li> <a href="./index.html">HOME</a></li>
                     <li> <a href="./pages/destination.html">DESTINATION</a></li>
                     <li> <a href="./pages/about.html">ABOUT</a></li>
-                    <li> <a href="./pages/contact.html">CONTACT</a></li>
+                    <li> <a href="./pages/misreservas.html">MY BOOKINGS</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="main">
-            <h1>
-                Meet the tower Eiffel
-            </h1>
-            <div> <img src="./img/torreEiffel.jpg" alt="eiffel" id="torreE"></div>
+    </Main>
+      <section class="parteI" >
+            <div>
+            <h2> MEET THE BIG BEN </h2>
+            <img id="torreB"  src="./img/big-ben-londres.jpg" alt="bigBen">
+            <h2> MEET THE EIFFEL TOWER</h2>
+            <img id="torreE"  src="./img/torreEiffel.jpg" alt="towerEiffel">
+            <H2> MEET THE TOKYO TOWER </H2>
+            <img id="torreT"  src="./img/torretokio.jpg" alt="carritotokio">
+            <H2> MEET THE RIALTO BRIDGE</H2>
+            <img  id="puenteR" src="./img/Rialto_bridge_2011.jpg" alt="carritovenecia">
         </div>
-        <h1>
-            Meet the Big Ben
-        </h1>
-        <div>
-            <img src="./img/big-ben-londres.jpg" alt="bigben" id="puenteB">
-        </div>
-        <div class="section">
         
+      </section>
+      
+ 
+       <footer>
+        <div>
+            <h1>
+             WELCOME  - TRAVEL TIME - NEXT ADVENTURE
+            </h1>
         </div>
-      </div>
+       </footer>
+      
+    
     <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>  RESERVAS 🗺️ </title>
+</head>
+<body>
+    <header>
+                <h1> MY BOOKINGS</h1>
+            </header>
+            <Main>
+                <div class="nav" id="menuA">
+                    <nav>
+                        <ul class="menu">
+                            <li> <a href="../index.html">HOME</a></li>
+                            <li> <a href="../pages/destination.html">DESTINATION</a></li>
+                            <li> <a href="../pages/about.html">ABOUT</a></li>
+                            <li> <a href="../pages/misreservas.html">MY BOOKINGS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </Main>
+            <section>
+                <div class="productos">
+                    <div>
+                        <div data-aos="flip-left" >
+                            <img src="../img/carritolondres.jpg" alt="">
+                        </div> 
+                        <div class="producto">
+                            <h2> LONDON</h2>
+                            <p class="precio" > FROM: $10600</p>
+                            <button id="buttonCart"  class="agregar-carrito">ADD TO MY BOOKINGS</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div data-aos="flip-right" >
+                            <img src="../img/carritoparis.jpeg" alt="">
+                        </div>
+                        <div class="producto">
+                            <h2> PARIS</h2>
+                            <p class="precio" >FROM: $21000</p>
+                            <button id="buttonCart2"  class="agregar-carrito">ADD TO MY BOOKINGS</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div data-aos="flip-right" >
+                            <img src="../img/carritotokio.jpg" alt="">
+                        </div>
+                        <div class="producto">
+                            <h2> TOKYO</h2>
+                            <p class="precio" >FROM: $32500</p>
+                            <button id="buttonCart3"  class="agregar-carrito">ADD TO MY BOOKINGS</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div data-aos="flip-left" >
+                            <img src="../img/carritovenecia.jpeg" alt="">
+                        </div>
+                        <div class="producto">
+                            <h2> VENICE</h2>
+                            <p class="precio" >FROM: $12100</p>
+                            <button id="buttonCart4"  class="agregar-carrito"  >ADD  TO MY BOOKINGS</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carrito">
+                    <h2>Carrito de Compras</h2>
+                    <ul id="lista-carrito"></ul>
+                    <p>TOTAL: $<span id="total"></span></p>
+                </div>
+    
+            </section>
+            <footer>
+                <div>
+                    <h1>
+                     WELCOME  - TRAVEL TIME - NEXT ADVENTURE
+                    </h1>
+                </div>
+          
+        <script src="../js/script3.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+</html>
