@@ -1,34 +1,3 @@
-// const destinos = [
-//     {
-//         id:1,
-//         lugar: "TOKYO",
-//         diasDisponibles : 7,
-//         mesDisponible: "mayo",
-//         presupuestoEn$: 6000
-//     },
-//     {
-//         id:2,
-//         lugar: "LONDON",
-//         diasDisponibles : 27,
-//         mesDisponible: "abril",
-//         presupuestoEn$: 20000
-//     },
-//     {
-//         id:3,
-//         lugar: "PARIS",
-//         diasDisponibles : 8,
-//         mesDisponible: "diciembre",
-//         presupuestoEn$: 22000
-//     },
-//     {
-//         id:4,
-//         lugar: "VENICE",
-//         diasDisponibles : 13,
-//         mesDisponible: "septiembre",
-//         presupuestoEn$: 8000
-//     },
-// ] 
-
 
 document.addEventListener('DOMContentLoaded', () => {
     const carrito = [];

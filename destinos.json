@@ -1,0 +1,50 @@
+[
+    {
+        "id_destino": 1,
+        "destinoJ": "LONDON",
+        "descripcion": "London, city, capital of the United Kingdom. It is among the oldest of the world’s great cities. LONDON IS A DIVERSE, COLOURFUL, COSMOPOLITAN, DAZZLING CITY. A city that has a history of more than two thousand years, but in which the modern and futuristic merge with a great profusion of arts and shows. " ,
+        "presupuesto$": 30000,
+        "imagenJ": "https://res.cloudinary.com/djcyhbk2e/image/upload/c_scale,f_auto,q_35,w_1400/v1/gvv/prod/zxvtpnk9w62on9nibcsm",
+        "categoria": {
+            "id_categoria": 1,
+            "nombre": "destinos",
+            "descripcion": "destinos disponibles"
+        }
+    },
+    {
+        "id_destino": 2,
+        "destinoJ": "PARIS",
+        "descripcion": "Paris, city and capital of France, situated in the north-central part of the country. THE CITY OF LIGHT, Paris is one of the most influential hubs on the European continent.  ",
+        "presupuesto$": 850000,
+        "imagenJ": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Tour_eiffel_paris-eiffel_tower.jpg",
+        "categoria": {
+            "id_categoria": 2,
+            "nombre": "destinos",
+            "descripcion": "destinos disponibles"
+        }
+    },
+    {
+        "id_destino": 3,
+        "destinoJ": "TOKIO",
+        "descripcion": "Tokyo, city and capital of Tokyo to (metropolis) and of Japan. It is located at the head of Tokyo Bay on the Pacific coast of central Honshu.  TOKYO IS A VIBRANT METROPOLIS with millions of residents and visitors. It offers a rich mix of culture, nature and fun for all tastes and interests.",
+        "presupuesto$": 6500000,
+        "imagenJ": "https://tipsparatuviaje.com/wp-content/uploads/2019/12/tokio-japon-1.jpg",
+        "categoria": {
+            "id_categoria": 3,
+            "nombre": "destinos",
+            "descripcion": "destinos disponibles"
+        }
+    },
+    {
+        "id_destino": 4,
+        "destinoJ": "VENICE",
+        "descripcion": "Venice, city, major seaport, and capital of both the provincia (province) of Venezia and the regione (region) of Veneto, northern Italy. VENICE IS A CITY LIKE NO OTHER. It is an important seaport, a cultural center and a world heritage site. Unique and unforgettable. ",
+        "presupuesto$": 250000,
+        "imagenJ": "https://media.architecturaldigest.com/photos/57d07a2304d9a6143e1952d0/master/pass/venice-travel-guide.jpg",
+        "categoria": {
+            "id_categoria": 1,
+            "nombre": "destinos",
+            "descripcion": "destinos disponibles"
+        }
+    }  
+]
