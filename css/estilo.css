@@ -309,26 +309,22 @@ header{
   display: flex;
  }
 
-@media screen and (max-width: 480px) {
-  container{
-display: flex;
-flex-direction: column;
+ @media only screen and (max-width: 600px){
+  header{
+    width: 100%;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parteI{
+    display: flex;
+    flex-direction: column;
   }
 
-  header{
-    grid-column: 2/-2;
-   h1{
-    color: cyan;
-   }
-   }
-   main{
-    grid-column: 2/-2;
-   }
-   section{
-    grid-column: 5/-5;
-    grid-row: 7 / span 6;
-   }
-   footer{
-    grid-column: 1/-1;
-   }
+  .parteA{
+    display: flex;
+    flex-direction: column;
   }
+}
